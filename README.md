@@ -206,14 +206,17 @@ BlurredText
 ![BorderedBackgroundTextuality](https://github.com/user-attachments/assets/0837887d-4533-4f01-8f7a-6f7ac85ac403)
 BorderedText
 
-Changelog
+## Changelog
 
 See the CHANGELOG.md file for updates.
 
-License
+## License
 
 This package is licensed under the MIT License.
 
 Author
 
-Hassan Zaheer
+## Author
+
+[Hassan Zaheer](https://www.linkedin.com/in/hassanzaheer21/)
+
