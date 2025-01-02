@@ -27,7 +27,7 @@ To use the `textuality` package in your Flutter project, follow these steps:
 
    ```yaml
    dependencies:
-     textuality: ^0.1.0
+     textuality: ^0.0.1
    
 Run the following command to install the package:
 
