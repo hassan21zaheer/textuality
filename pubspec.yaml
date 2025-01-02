@@ -1,6 +1,6 @@
 name: textuality
-description: "Textuality is a Flutter package that enhances the default Text widget by offering advanced styling options such as gradient text, stroked text, neon effects, text chips, shadows, and more. With Textuality, you can effortlessly create eye-catching and dynamic text styles to elevate your app's UI."
-version: 0.0.1
+description: "Textuality is a Flutter package that enhances the Text widget with advanced styling options like gradient, stroked, neon, shadow effects, and more."
+version: 0.0.2
 homepage: https://github.com/hassan21zaheer/textuality
 
 environment:
@@ -16,10 +16,6 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^3.0.0
 
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
-
-# The following section is specific to Flutter packages.
 flutter:
 
   # To add assets to your package, add an assets section, like this:
@@ -37,7 +33,9 @@ flutter:
   # in this "flutter" section. Each entry in this list should have a
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
-  # example:
+  #example:
+    # The example folder under your package's root
+    # path: example/main.dart
   # fonts:
   #   - family: Schyler
   #     fonts:

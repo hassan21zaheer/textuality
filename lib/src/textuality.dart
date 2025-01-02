@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 
-/// Gradient Text Widget
+/// A widget that displays text with a gradient color effect.
+///
+/// The [text] parameter is the content of the text to be displayed.
+/// The [giveGradient] parameter is a list of colors that will be used in the gradient.
+/// You can also customize the text appearance using optional parameters such as [style], [textAlign], and others.
 class GradientText extends StatelessWidget {
   final String text;
   final TextStyle? style;
@@ -66,7 +70,12 @@ class GradientText extends StatelessWidget {
   }
 }
 
-/// Stroke (Outlined) Text Widget
+/// A widget that displays text with an outlined (stroke) effect.
+///
+/// The [text] parameter is the content of the text to be displayed.
+/// The [strokeColor] parameter defines the color of the text stroke.
+/// The [strokeWidth] parameter defines the width of the stroke around the text.
+/// Optional parameters like [style] and [textAlign] can be used to customize the text appearance.
 class StrokeText extends StatelessWidget {
   final String text;
   final TextStyle? style;
@@ -137,7 +146,12 @@ class StrokeText extends StatelessWidget {
   }
 }
 
-/// Neon Effect Text Widget
+/// A widget that displays text with a neon glowing effect.
+///
+/// The [text] parameter is the content of the text to be displayed.
+/// The [glowColor] parameter defines the color of the neon glow effect.
+/// The [blurRadius] parameter defines the intensity of the glow.
+/// You can also customize the text appearance using other optional parameters such as [style], [textAlign], and more.
 class NeonText extends StatelessWidget {
   final String text;
   final TextStyle? style;
@@ -205,7 +219,11 @@ class NeonText extends StatelessWidget {
   }
 }
 
-/// Text Chips Widget
+/// A widget that displays text within a chip (rounded container) style.
+///
+/// The [text] parameter is the content of the text to be displayed.
+/// The [chipColor] parameter defines the background color of the chip.
+/// Optional parameters like [style] and [textAlign] allow customization of the text appearance within the chip.
 class ChipText extends StatelessWidget {
   final String text;
   final Color chipColor;
@@ -261,7 +279,11 @@ class ChipText extends StatelessWidget {
   }
 }
 
-/// Shadow Effect Text Widget
+/// A widget that displays text with a shadow effect.
+///
+/// The [text] parameter is the content of the text to be displayed.
+/// The [shadows] parameter defines the list of shadow effects to apply to the text.
+/// Other optional parameters such as [style] and [textAlign] allow customization of the text appearance.
 class ShadowText extends StatelessWidget {
   final String text;
   final TextStyle? style;
@@ -309,7 +331,11 @@ class ShadowText extends StatelessWidget {
   }
 }
 
-/// Interactive Text Widget
+/// A widget that displays text with an interactive onTap gesture.
+///
+/// The [text] parameter is the content of the text to be displayed.
+/// The [onTap] callback is triggered when the text is tapped.
+/// You can customize the text appearance using optional parameters like [style], [textAlign], and more.
 class InteractiveText extends StatelessWidget {
   final String text;
   final TextStyle? style;
@@ -360,7 +386,10 @@ class InteractiveText extends StatelessWidget {
   }
 }
 
-/// Multi-Color Text Widget
+/// A widget that displays text with multiple colors (spans of text).
+///
+/// The [spans] parameter is a list of [TextSpan] objects that define different sections of text with different styles or colors.
+/// Optional parameters like [textAlign], [textDirection], and others allow further customization of the text display.
 class MultiColorText extends StatelessWidget {
   final List<TextSpan> spans;
   final TextAlign? textAlign;
@@ -392,7 +421,11 @@ class MultiColorText extends StatelessWidget {
   }
 }
 
-/// Vertical or Rotated Text Widget
+/// A widget that displays text rotated by a specific angle.
+///
+/// The [text] parameter is the content of the text to be displayed.
+/// The [rotationAngle] parameter defines the angle in radians by which to rotate the text.
+/// Other optional parameters such as [style], [textAlign], and others allow customization of the text appearance.
 class RotatedText extends StatelessWidget {
   final String text;
   final TextStyle? style;
@@ -443,7 +476,13 @@ class RotatedText extends StatelessWidget {
   }
 }
 
-/// Blurred Text Widget
+/// A widget that displays text with a blur effect.
+///
+/// The [text] parameter is the content of the text to be displayed.
+/// The [blurStrength] parameter controls the intensity of the blur effect.
+/// Optional parameters such as [style], [textAlign], [maxLines], and others allow customization of the text appearance.
+/// The [style] parameter can be used to apply additional text styling, while [textAlign] controls the alignment of the text.
+/// The [strutStyle], [textDirection], [locale], [softWrap], and other optional parameters provide more customization options for the text layout and behavior.
 class BlurredText extends StatelessWidget {
   final String text;
   final TextStyle? style;
@@ -498,7 +537,15 @@ class BlurredText extends StatelessWidget {
   }
 }
 
-/// Bordered Background Text Widget
+/// A widget that displays text with a bordered background.
+///
+/// The [text] parameter is the content of the text to be displayed.
+/// The [borderColor] parameter defines the color of the border surrounding the text.
+/// The [borderWidth] parameter controls the width of the border.
+/// The [backgroundColor] parameter defines the background color of the area surrounding the text.
+/// Optional parameters like [style], [textAlign], [maxLines], and others allow customization of the text appearance.
+/// The [style] parameter applies additional styling to the text, while [textAlign] controls the alignment of the text within the container.
+/// Other optional parameters provide further control over the text layout and behavior.
 class BorderedBackgroundText extends StatelessWidget {
   final String text;
   final TextStyle? style;
