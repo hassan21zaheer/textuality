@@ -208,13 +208,11 @@ BorderedText
 
 ## Changelog
 
-See the CHANGELOG.md file for updates.
+See the [CHANGELOG.md](https://github.com/hassan21zaheer/textuality/blob/main/CHANGELOG.md) file for updates.
 
 ## License
 
 This package is licensed under the MIT License.
-
-Author
 
 ## Author
 
