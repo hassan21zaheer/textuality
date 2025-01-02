@@ -176,6 +176,39 @@ class _TextualityExampleState extends State<TextualityExample> {
 
     
  ```
+
+GradientText
+![GradientTextuality](https://github.com/user-attachments/assets/114b5436-cb89-4a57-8261-39d1c00e611b)
+
+StrokeText
+![StrokeTextuality](https://github.com/user-attachments/assets/2afe8afb-db27-4ddf-8a23-6b7e51c2059c)
+
+ChipText
+![ChipTextuality](https://github.com/user-attachments/assets/80777be1-dea9-44a9-a800-30688b18b8b4)
+
+
+NeonText
+![NeonTextuality](https://github.com/user-attachments/assets/803ce043-c939-40dc-b7b1-1e4bbfaad0f7)
+
+InteractiveText
+![InteractiveTextuality](https://github.com/user-attachments/assets/6a9c2a4a-fc1f-4346-a996-21a010bb41c3)
+
+ShadowText
+![ShadowTextuality](https://github.com/user-attachments/assets/4c3a745b-2deb-4b77-b578-d03497c5e059)
+
+RotatedText
+![RotatedTextuality](https://github.com/user-attachments/assets/4aa2fc2a-ff07-4e08-b91c-213acc0a0912)
+
+MultiColorText
+![MultiColorTextuality](https://github.com/user-attachments/assets/bcbc59b5-408b-43d8-991b-734239da3de8)
+
+BlurredText
+![BlurredTextuality](https://github.com/user-attachments/assets/adaae2ed-9400-4adf-ad65-226f1f70f9c7)
+
+BorderedText
+![BorderedBackgroundTextuality](https://github.com/user-attachments/assets/e830cf14-6add-4093-b2ac-e4cb69ade064)
+
+
 Changelog
 
 See the CHANGELOG.md file for updates.
@@ -186,4 +219,4 @@ This package is licensed under the MIT License.
 
 Author
 
-Hassan Zaheer# textuality
+Hassan Zaheer
