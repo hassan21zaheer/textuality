@@ -176,38 +176,35 @@ class _TextualityExampleState extends State<TextualityExample> {
 
     
  ```
-
+![GradientTextuality](https://github.com/user-attachments/assets/7bb68d2a-80e4-4c2d-bc82-a441fdd93086)
 GradientText
-![GradientTextuality](https://github.com/user-attachments/assets/114b5436-cb89-4a57-8261-39d1c00e611b)
 
-StrokeText
-![StrokeTextuality](https://github.com/user-attachments/assets/2afe8afb-db27-4ddf-8a23-6b7e51c2059c)
-
+![ChipTextuality](https://github.com/user-attachments/assets/76f6aee5-2a15-4a64-8719-7a6eabb00939)
 ChipText
-![ChipTextuality](https://github.com/user-attachments/assets/80777be1-dea9-44a9-a800-30688b18b8b4)
 
+![StrokeTextuality](https://github.com/user-attachments/assets/dae8275b-c36e-41a5-aa19-630a85f9818f)
+StrokeText
 
-NeonText
-![NeonTextuality](https://github.com/user-attachments/assets/803ce043-c939-40dc-b7b1-1e4bbfaad0f7)
-
+![InteractiveTextuality](https://github.com/user-attachments/assets/4038d91b-bc26-4675-bc2a-4b104bf1abc5)
 InteractiveText
-![InteractiveTextuality](https://github.com/user-attachments/assets/6a9c2a4a-fc1f-4346-a996-21a010bb41c3)
 
+![NeonTextuality](https://github.com/user-attachments/assets/9d7f02b6-20fa-4cf1-99a7-cae69e94a3f4)
+NeonText
+
+![ShadowTextuality](https://github.com/user-attachments/assets/65ffc000-8830-49fb-a203-16cf08d234f4)
 ShadowText
-![ShadowTextuality](https://github.com/user-attachments/assets/4c3a745b-2deb-4b77-b578-d03497c5e059)
 
-RotatedText
-![RotatedTextuality](https://github.com/user-attachments/assets/4aa2fc2a-ff07-4e08-b91c-213acc0a0912)
-
+![MultiColorTextuality](https://github.com/user-attachments/assets/6b07c1f7-b7eb-416c-b478-b89624d01354)
 MultiColorText
-![MultiColorTextuality](https://github.com/user-attachments/assets/bcbc59b5-408b-43d8-991b-734239da3de8)
 
+![RotatedTextuality](https://github.com/user-attachments/assets/bac0abb1-feff-45e0-83a0-9ba021339c2f)
+RotatedText
+
+![BlurredTextuality](https://github.com/user-attachments/assets/b2a87199-ca98-446a-9330-d02213618ae6)
 BlurredText
-![BlurredTextuality](https://github.com/user-attachments/assets/adaae2ed-9400-4adf-ad65-226f1f70f9c7)
 
+![BorderedBackgroundTextuality](https://github.com/user-attachments/assets/0837887d-4533-4f01-8f7a-6f7ac85ac403)
 BorderedText
-![BorderedBackgroundTextuality](https://github.com/user-attachments/assets/e830cf14-6add-4093-b2ac-e4cb69ade064)
-
 
 Changelog
 
