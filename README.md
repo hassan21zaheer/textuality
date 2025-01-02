@@ -2,6 +2,8 @@
 
 **Textuality** is a powerful Flutter package that enhances the appearance of text widgets with a variety of customizable text effects and styles. With this package, you can easily add gradient text, stroke text, neon effects, shadow effects, interactive text, and more to your Flutter app.
 
+![Textuality](https://github.com/user-attachments/assets/6ab7512e-b78d-40b6-b5bc-bc6b45d97582)
+
 ## Features
 
 - **GradientText**: Add gradient colors to your text.
