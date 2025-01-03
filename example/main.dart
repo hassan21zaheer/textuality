@@ -49,7 +49,6 @@ class _TextualityExampleState extends State<TextualityExample> {
                 style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
               ),
               SizedBox(height: 20),
-
               // Stroke Text
               StrokeText(
                 text: 'Stroke Text',
@@ -79,7 +78,6 @@ class _TextualityExampleState extends State<TextualityExample> {
                 style: TextStyle(fontSize: 20, color: Colors.white),
               ),
               SizedBox(height: 20),
-
               // Shadow Text
               ShadowText(
                   text: 'Shadow Effect Text',
@@ -95,7 +93,18 @@ class _TextualityExampleState extends State<TextualityExample> {
                       fontWeight: FontWeight.bold,
                       color: Colors.white)),
               SizedBox(height: 20),
-
+              ShadowText.simple(
+                text: 'Simple Shadow Effect Text',
+                style: TextStyle(
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.blue,
+                ),
+                shadowColor: Colors.red,
+                shadowBlurRadius: 8.0,
+                shadowOffset: Offset(3, 3),
+              ),
+              SizedBox(height: 20),
               // Multi-Color Text
               MultiColorText(
                 spans: [

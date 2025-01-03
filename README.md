@@ -116,7 +116,18 @@ class _TextualityExampleState extends State<TextualityExample> {
                       fontWeight: FontWeight.bold,
                       color: Colors.white)),
               SizedBox(height: 20),
-
+               ShadowText.simple(
+                  text: 'Simple Shadow Effect Text',
+                  style: TextStyle(
+                     fontSize: 24,
+                     fontWeight: FontWeight.bold,
+                     color: Colors.blue,
+                  ),
+                  shadowColor: Colors.red,
+                  shadowBlurRadius: 8.0,
+                  shadowOffset: Offset(3, 3),
+               ),
+               SizedBox(height: 20),
               // Multi-Color Text
               MultiColorText(
                 spans: [

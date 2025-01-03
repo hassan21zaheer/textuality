@@ -302,13 +302,62 @@ class ShadowText extends StatelessWidget {
   final TextHeightBehavior? textHeightBehavior;
   final Color? selectionColor;
 
+  // Default shadow
+  static const List<Shadow> defaultShadows = [
+    Shadow(
+      blurRadius: 5.0,
+      color: Colors.black,
+      offset: Offset(2, 2),
+    ),
+  ];
+
+  // Main constructor
   const ShadowText({
     Key? key,
     required this.text,
-    required this.shadows,
+    this.shadows = defaultShadows,
     this.style,
-    this.textAlign, this.strutStyle, this.textDirection, this.locale, this.softWrap, this.overflow, this.textScaleFactor, this.textScaler, this.maxLines, this.semanticsLabel, this.textWidthBasis, this.textHeightBehavior, this.selectionColor,
+    this.textAlign,
+    this.strutStyle,
+    this.textDirection,
+    this.locale,
+    this.softWrap,
+    this.overflow,
+    this.textScaleFactor,
+    this.textScaler,
+    this.maxLines,
+    this.semanticsLabel,
+    this.textWidthBasis,
+    this.textHeightBehavior,
+    this.selectionColor,
   }) : super(key: key);
+
+  // Helper constructor for simple shadow text
+  factory ShadowText.simple({
+    Key? key,
+    required String text,
+    TextStyle? style,
+    Color shadowColor = Colors.black,
+    double shadowBlurRadius = 5.0,
+    Offset shadowOffset = const Offset(2, 2),
+    TextAlign? textAlign,
+    int? maxLines,
+  }) {
+    return ShadowText(
+      key: key,
+      text: text,
+      style: style,
+      shadows: [
+        Shadow(
+          blurRadius: shadowBlurRadius,
+          color: shadowColor,
+          offset: shadowOffset,
+        ),
+      ],
+      textAlign: textAlign,
+      maxLines: maxLines,
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
