@@ -1,5 +1,8 @@
 # Changelog
 
+## [0.0.4] - 2025-01-03
+- Code Refactoring and minor improvements.
+
 ## [0.0.3] - 2025-01-03
 - Improved ShadowText Widget.
 

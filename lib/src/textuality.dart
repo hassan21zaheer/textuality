@@ -16,7 +16,6 @@ class GradientText extends StatelessWidget {
   final bool? softWrap;
   final TextOverflow? overflow;
   final double? textScaleFactor;
-  final TextScaler? textScaler;
   final int? maxLines;
   final String? semanticsLabel;
   final TextWidthBasis? textWidthBasis;
@@ -35,7 +34,6 @@ class GradientText extends StatelessWidget {
     this.softWrap,
     this.overflow,
     this.textScaleFactor,
-    this.textScaler,
     this.maxLines,
     this.semanticsLabel,
     this.textWidthBasis,
@@ -59,7 +57,6 @@ class GradientText extends StatelessWidget {
         locale: locale,
         softWrap: softWrap,
         overflow: overflow,
-        textScaler: textScaler,
         maxLines: maxLines,
         semanticsLabel: semanticsLabel,
         textWidthBasis: textWidthBasis,
@@ -88,7 +85,6 @@ class StrokeText extends StatelessWidget {
   final bool? softWrap;
   final TextOverflow? overflow;
   final double? textScaleFactor;
-  final TextScaler? textScaler;
   final int? maxLines;
   final String? semanticsLabel;
   final TextWidthBasis? textWidthBasis;
@@ -101,7 +97,7 @@ class StrokeText extends StatelessWidget {
     required this.strokeColor,
     required this.strokeWidth,
     this.style,
-    this.textAlign, this.strutStyle, this.textDirection, this.locale, this.softWrap, this.overflow, this.textScaleFactor, this.textScaler, this.maxLines, this.semanticsLabel, this.textWidthBasis, this.textHeightBehavior, this.selectionColor,
+    this.textAlign, this.strutStyle, this.textDirection, this.locale, this.softWrap, this.overflow, this.textScaleFactor, this.maxLines, this.semanticsLabel, this.textWidthBasis, this.textHeightBehavior, this.selectionColor,
   }) : super(key: key);
 
   @override
@@ -134,7 +130,6 @@ class StrokeText extends StatelessWidget {
           locale: locale,
           softWrap: softWrap,
           overflow: overflow,
-          textScaler: textScaler,
           maxLines: maxLines,
           semanticsLabel: semanticsLabel,
           textWidthBasis: textWidthBasis,
@@ -164,7 +159,6 @@ class NeonText extends StatelessWidget {
   final bool? softWrap;
   final TextOverflow? overflow;
   final double? textScaleFactor;
-  final TextScaler? textScaler;
   final int? maxLines;
   final String? semanticsLabel;
   final TextWidthBasis? textWidthBasis;
@@ -177,7 +171,7 @@ class NeonText extends StatelessWidget {
     required this.glowColor,
     required this.blurRadius,
     this.style,
-    this.textAlign, this.strutStyle, this.textDirection, this.locale, this.softWrap, this.overflow, this.textScaleFactor, this.textScaler, this.maxLines, this.semanticsLabel, this.textWidthBasis, this.textHeightBehavior, this.selectionColor,
+    this.textAlign, this.strutStyle, this.textDirection, this.locale, this.softWrap, this.overflow, this.textScaleFactor,this.maxLines, this.semanticsLabel, this.textWidthBasis, this.textHeightBehavior, this.selectionColor,
   }) : super(key: key);
 
   @override
@@ -209,7 +203,6 @@ class NeonText extends StatelessWidget {
       locale: locale,
       softWrap: softWrap,
       overflow: overflow,
-      textScaleFactor: textScaleFactor,
       maxLines: maxLines,
       semanticsLabel: semanticsLabel,
       textWidthBasis: textWidthBasis,
@@ -235,7 +228,6 @@ class ChipText extends StatelessWidget {
   final bool? softWrap;
   final TextOverflow? overflow;
   final double? textScaleFactor;
-  final TextScaler? textScaler;
   final int? maxLines;
   final String? semanticsLabel;
   final TextWidthBasis? textWidthBasis;
@@ -247,7 +239,7 @@ class ChipText extends StatelessWidget {
     required this.text,
     required this.chipColor,
     this.style,
-    this.textAlign, this.strutStyle, this.textDirection, this.locale, this.softWrap, this.overflow, this.textScaleFactor, this.textScaler, this.maxLines, this.semanticsLabel, this.textWidthBasis, this.textHeightBehavior, this.selectionColor,
+    this.textAlign, this.strutStyle, this.textDirection, this.locale, this.softWrap, this.overflow, this.textScaleFactor, this.maxLines, this.semanticsLabel, this.textWidthBasis, this.textHeightBehavior, this.selectionColor,
   }) : super(key: key);
 
   @override
@@ -267,7 +259,6 @@ class ChipText extends StatelessWidget {
         locale: locale,
         softWrap: softWrap,
         overflow: overflow,
-        textScaleFactor: textScaleFactor,
         maxLines: maxLines,
         semanticsLabel: semanticsLabel,
         textWidthBasis: textWidthBasis,
@@ -295,7 +286,6 @@ class ShadowText extends StatelessWidget {
   final bool? softWrap;
   final TextOverflow? overflow;
   final double? textScaleFactor;
-  final TextScaler? textScaler;
   final int? maxLines;
   final String? semanticsLabel;
   final TextWidthBasis? textWidthBasis;
@@ -324,7 +314,6 @@ class ShadowText extends StatelessWidget {
     this.softWrap,
     this.overflow,
     this.textScaleFactor,
-    this.textScaler,
     this.maxLines,
     this.semanticsLabel,
     this.textWidthBasis,
@@ -370,7 +359,6 @@ class ShadowText extends StatelessWidget {
       locale: locale,
       softWrap: softWrap,
       overflow: overflow,
-      textScaleFactor: textScaleFactor,
       maxLines: maxLines,
       semanticsLabel: semanticsLabel,
       textWidthBasis: textWidthBasis,
@@ -396,7 +384,6 @@ class InteractiveText extends StatelessWidget {
   final bool? softWrap;
   final TextOverflow? overflow;
   final double? textScaleFactor;
-  final TextScaler? textScaler;
   final int? maxLines;
   final String? semanticsLabel;
   final TextWidthBasis? textWidthBasis;
@@ -408,7 +395,7 @@ class InteractiveText extends StatelessWidget {
     required this.text,
     required this.onTap,
     this.style,
-    this.textAlign, this.strutStyle, this.textDirection, this.locale, this.softWrap, this.overflow, this.textScaleFactor, this.textScaler, this.maxLines, this.semanticsLabel, this.textWidthBasis, this.textHeightBehavior, this.selectionColor,
+    this.textAlign, this.strutStyle, this.textDirection, this.locale, this.softWrap, this.overflow, this.textScaleFactor, this.maxLines, this.semanticsLabel, this.textWidthBasis, this.textHeightBehavior, this.selectionColor,
   }) : super(key: key);
 
   @override
@@ -424,7 +411,6 @@ class InteractiveText extends StatelessWidget {
         locale: locale,
         softWrap: softWrap,
         overflow: overflow,
-        textScaleFactor: textScaleFactor,
         maxLines: maxLines,
         semanticsLabel: semanticsLabel,
         textWidthBasis: textWidthBasis,
@@ -443,7 +429,6 @@ class MultiColorText extends StatelessWidget {
   final List<TextSpan> spans;
   final TextAlign? textAlign;
   final TextDirection? textDirection;
-  final double? textScaleFactor;
   final int? maxLines;
   final TextHeightBehavior? textHeightBehavior;
 
@@ -452,7 +437,6 @@ class MultiColorText extends StatelessWidget {
     required this.spans,
     this.textAlign,
     this.textDirection,
-    this.textScaleFactor,
     this.maxLines,
     this.textHeightBehavior,
   }) : super(key: key);
@@ -463,7 +447,6 @@ class MultiColorText extends StatelessWidget {
       text: TextSpan(children: spans),
       textAlign: textAlign ?? TextAlign.start,
       textDirection: textDirection,
-      textScaleFactor: textScaleFactor ?? 1.0,
       maxLines: maxLines,
       textHeightBehavior: textHeightBehavior,
     );
@@ -486,7 +469,6 @@ class RotatedText extends StatelessWidget {
   final bool? softWrap;
   final TextOverflow? overflow;
   final double? textScaleFactor;
-  final TextScaler? textScaler;
   final int? maxLines;
   final String? semanticsLabel;
   final TextWidthBasis? textWidthBasis;
@@ -498,7 +480,7 @@ class RotatedText extends StatelessWidget {
     required this.text,
     required this.rotationAngle,
     this.style,
-    this.textAlign, this.strutStyle, this.textDirection, this.locale, this.softWrap, this.overflow, this.textScaleFactor, this.textScaler, this.maxLines, this.semanticsLabel, this.textWidthBasis, this.textHeightBehavior, this.selectionColor,
+    this.textAlign, this.strutStyle, this.textDirection, this.locale, this.softWrap, this.overflow, this.textScaleFactor, this.maxLines, this.semanticsLabel, this.textWidthBasis, this.textHeightBehavior, this.selectionColor,
   }) : super(key: key);
 
   @override
@@ -514,7 +496,6 @@ class RotatedText extends StatelessWidget {
         locale: locale,
         softWrap: softWrap,
         overflow: overflow,
-        textScaleFactor: textScaleFactor,
         maxLines: maxLines,
         semanticsLabel: semanticsLabel,
         textWidthBasis: textWidthBasis,
@@ -543,7 +524,6 @@ class BlurredText extends StatelessWidget {
   final bool? softWrap;
   final TextOverflow? overflow;
   final double? textScaleFactor;
-  final TextScaler? textScaler;
   final int? maxLines;
   final String? semanticsLabel;
   final TextWidthBasis? textWidthBasis;
@@ -555,7 +535,7 @@ class BlurredText extends StatelessWidget {
     required this.text,
     required this.blurStrength,
     this.style,
-    this.textAlign, this.strutStyle, this.textDirection, this.locale, this.softWrap, this.overflow, this.textScaleFactor, this.textScaler, this.maxLines, this.semanticsLabel, this.textWidthBasis, this.textHeightBehavior, this.selectionColor,
+    this.textAlign, this.strutStyle, this.textDirection, this.locale, this.softWrap, this.overflow, this.textScaleFactor, this.maxLines, this.semanticsLabel, this.textWidthBasis, this.textHeightBehavior, this.selectionColor,
   }) : super(key: key);
 
   @override
@@ -576,7 +556,6 @@ class BlurredText extends StatelessWidget {
       locale: locale,
       softWrap: softWrap,
       overflow: overflow,
-      textScaleFactor: textScaleFactor,
       maxLines: maxLines,
       semanticsLabel: semanticsLabel,
       textWidthBasis: textWidthBasis,
@@ -608,7 +587,6 @@ class BorderedBackgroundText extends StatelessWidget {
   final bool? softWrap;
   final TextOverflow? overflow;
   final double? textScaleFactor;
-  final TextScaler? textScaler;
   final int? maxLines;
   final String? semanticsLabel;
   final TextWidthBasis? textWidthBasis;
@@ -622,7 +600,7 @@ class BorderedBackgroundText extends StatelessWidget {
     required this.borderWidth,
     required this.backgroundColor,
     this.style,
-    this.textAlign, this.strutStyle, this.textDirection, this.locale, this.softWrap, this.overflow, this.textScaleFactor, this.textScaler, this.maxLines, this.semanticsLabel, this.textWidthBasis, this.textHeightBehavior, this.selectionColor,
+    this.textAlign, this.strutStyle, this.textDirection, this.locale, this.softWrap, this.overflow, this.textScaleFactor,this.maxLines, this.semanticsLabel, this.textWidthBasis, this.textHeightBehavior, this.selectionColor,
   }) : super(key: key);
 
   @override
@@ -642,7 +620,6 @@ class BorderedBackgroundText extends StatelessWidget {
         locale: locale,
         softWrap: softWrap,
         overflow: overflow,
-        textScaleFactor: textScaleFactor,
         maxLines: maxLines,
         semanticsLabel: semanticsLabel,
         textWidthBasis: textWidthBasis,

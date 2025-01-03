@@ -1,6 +1,6 @@
 name: textuality
 description: "Textuality is a Flutter package that enhances the Text widget with advanced styling options like gradient, stroked, neon, shadow effects, and more."
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/hassan21zaheer/textuality
 
 environment:
